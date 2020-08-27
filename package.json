@@ -1,0 +1,41 @@
+{
+  "name": "@avenga/stylelint-config",
+  "version": "1.0.0",
+  "description": "Avenga's stylelint rules and config",
+  "author": "Avenga",
+  "license": "MIT",
+  "keywords": [
+    "avenga",
+    "css",
+    "scss",
+    "sass",
+    "config",
+    "lint",
+    "linting",
+    "linter",
+    "frontend",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "bugs": {
+    "url": "https://github.com/avenga/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/avenga/stylelint-config#readme",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avenga/stylelint-config.git"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "stylelint": ">=13.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
