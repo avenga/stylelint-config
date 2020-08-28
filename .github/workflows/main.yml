@@ -26,3 +26,4 @@ steps:
     run: npm install
   - name: lint JS
     run: npm run lint:js
+    # test push to trigger the action
