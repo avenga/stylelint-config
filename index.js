@@ -74,4 +74,4 @@ module.exports = {
     'selector-max-compound-selectors': null,
     'shorthand-property-no-redundant-values': null,
   },
-};
+}

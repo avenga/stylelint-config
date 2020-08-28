@@ -31,11 +31,16 @@
     "stylelint-scss": "^3.18.0"
   },
   "devDependencies": {
+    "@avenga/eslint-config": "^1.1.0",
+    "eslint": "^6.0.0",
+    "eslint-plugin-import": "~2.20.2",
+    "eslint-plugin-prefer-arrow": "~1.2.1"
   },
   "peerDependencies": {
     "stylelint": ">=13.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:js": "eslint . --ignore-path .gitignore"
   }
 }
