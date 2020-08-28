@@ -24,7 +24,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avenga/stylelint-config.git"
+    "url": "https://github.com/avenga/stylelint-config.git"
   },
   "dependencies": {
     "stylelint-config-standard": "^20.0.0",
