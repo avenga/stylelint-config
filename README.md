@@ -25,8 +25,9 @@ If you need to add a stylelint configuration object to your project, there are
 [different approaches](https://stylelint.io/user-guide/configure).
 One popular approach is to add a `.stylelintrc.js` file to the root of your project. 
 
-`.stylelintrc.js`:
 ```js
+// .stylelintrc.js
+
 module.exports = {
   extends: '@avenga/stylelint-config',
 };
