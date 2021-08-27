@@ -43,7 +43,7 @@ module.exports = {
     // Style
     indentation: null,
     'selector-descendant-combinator-no-non-space': null,
-    'at-rule-blacklist': ['extend'],
+    'at-rule-disallowed-list': ['extend'],
     'at-rule-empty-line-before': [
       'always',
       {
