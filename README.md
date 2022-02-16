@@ -43,6 +43,6 @@ Note: `@avenga/stylelint-config` already includes the recommended
 
 - [Atom](https://atom.io/packages/linter-stylelint)
 - [vim](https://github.com/vim-syntastic/syntastic/blob/master/syntax_checkers/css/stylelint.vim)
-- [Visual Studio Code](https://github.com/shinnn/vscode-stylelint)
+- [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [Sublime Text](https://github.com/SublimeLinter/SublimeLinter-stylelint)
 - [WebStorm](https://www.jetbrains.com/help/webstorm/using-stylelint-code-quality-tool.html)
