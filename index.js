@@ -67,7 +67,7 @@ module.exports = {
     'max-nesting-depth': [
       3,
       {
-        ignoreAtRules: ['for', 'include'],
+        ignoreAtRules: ['for', 'include', 'if', 'else', 'each'],
       },
     ],
     'number-leading-zero': null,
