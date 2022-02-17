@@ -1,7 +1,7 @@
 # Avenga's Stylelint Config
 
 [![npm version](http://img.shields.io/npm/v/@avenga/stylelint-config.svg)](https://www.npmjs.org/package/@avenga/stylelint-config)
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](/CONTRIBUTING.md)
 [![Downloads per month](https://img.shields.io/npm/dm/@avenga/stylelint-config.svg)](https://npmcharts.com/compare/@avenga/stylelint-config)
 
 This config extends the [`stylelint-config-standard-scss` shared config](https://github.com/stylelint-scss/stylelint-config-standard-scss) 
