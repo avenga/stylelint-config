@@ -1,12 +1,19 @@
-# Stylelint Config
+# Avenga's Stylelint Config
 
-Avenga's stylelint rules and config
+[![npm version](http://img.shields.io/npm/v/@avenga/stylelint-config.svg)](https://www.npmjs.org/package/@avenga/stylelint-config)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+[![Downloads per month](https://img.shields.io/npm/dm/@avenga/stylelint-config.svg)](https://npmcharts.com/compare/@avenga/stylelint-config)
+
+This config extends the [`stylelint-config-standard-scss` shared config](https://github.com/stylelint-scss/stylelint-config-standard-scss) 
+and configures its own rules.
+
+To see the rules that this config uses, please read the [config itself](/index.js).
 
 ## Installation
 
 Install [stylelint](https://stylelint.io/) and `@avenga/stylelint-config`:
 
-```
+```shell
 npm install --save-dev stylelint @avenga/stylelint-config 
 ```
 
@@ -15,7 +22,7 @@ npm install --save-dev stylelint @avenga/stylelint-config
 stylelint expects a configuration object. If your project already has one, just reference `@avenga/stylelint-config`
 with `extends`.
 
-```
+```json
 {
   "extends": "@avenga/stylelint-config"
 } 
@@ -33,11 +40,8 @@ module.exports = {
 };
 ```
 
-It is possible to [overwrite rules](https://stylelint.io/user-guide/configure#extends) to meet your project specific needs.
-
-Note: `@avenga/stylelint-config` already includes the recommended 
-[`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard) config and the
-[`stylelint-scss`](https://github.com/kristerkari/stylelint-scss) plugin. 
+It is possible to [overwrite rules](https://stylelint.io/user-guide/configure#extends) to meet your project specific 
+needs. 
 
 ### Stylelint Editor Plugins
 

@@ -1,8 +1,7 @@
 module.exports = {
-  extends: ['stylelint-config-standard'],
-  plugins: ['stylelint-scss'],
+  extends: ['stylelint-config-standard-scss'],
   rules: {
-    // CSS Modules
+    'at-rule-disallowed-list': 'extend',
     'selector-pseudo-class-no-unknown': [
       true,
       {
@@ -15,63 +14,22 @@ module.exports = {
         ignoreProperties: ['composes'],
       },
     ],
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: [
-          'value',
-          'if',
-          'else',
-          'mixin',
-          'extend',
-          'import',
-          'include',
-          'at-root',
-          'while',
-          'debug',
-          'warn',
-          'error',
-          'each',
-          'for',
-          'function',
-          'return',
-          'content',
-        ],
-      },
-    ],
-
-    // Style
-    indentation: null,
-    'selector-descendant-combinator-no-non-space': null,
-    'at-rule-disallowed-list': ['extend'],
-    'at-rule-empty-line-before': [
-      'always',
-      {
-        except: ['blockless-after-same-name-blockless', 'first-nested'],
-        ignore: ['after-comment'],
-        ignoreAtRules: ['if', 'else'],
-      },
-    ],
-    'block-closing-brace-newline-after': [
-      'always',
-      {
-        ignoreAtRules: ['if', 'else'],
-      },
-    ],
-    'color-hex-case': null,
-    'color-hex-length': null,
-    'color-named': null,
-    'declaration-colon-newline-after': null,
-    'declaration-empty-line-before': null,
-    'function-name-case': null,
     'max-nesting-depth': [
-      3,
+      4,
       {
         ignoreAtRules: ['for', 'include', 'if', 'else', 'each'],
       },
     ],
+    'indentation': null,
+    'string-quotes': null,
+    'selector-descendant-combinator-no-non-space': null,
+    'color-hex-length': null,
+    'declaration-colon-newline-after': null,
+    'declaration-empty-line-before': null,
+    'function-name-case': null,
     'number-leading-zero': null,
-    'selector-max-compound-selectors': null,
     'shorthand-property-no-redundant-values': null,
+    'value-no-vendor-prefix': null,
+    'scss/dollar-variable-pattern': null,
   },
 }
