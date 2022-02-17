@@ -1,6 +1,6 @@
 {
   "name": "@avenga/stylelint-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Avenga's stylelint rules and config",
   "author": "Avenga",
   "license": "MIT",
@@ -27,18 +27,15 @@
     "url": "https://github.com/avenga/stylelint-config.git"
   },
   "dependencies": {
-    "stylelint-config-standard": "^25.0.0",
-    "stylelint-scss": "^4.1.0"
+    "stylelint-config-standard-scss": "3.0.0"
   },
   "devDependencies": {
     "@avenga/eslint-config": "^1.1.0",
     "eslint": "^8.9.0",
-    "eslint-plugin-import": "~2.25.4",
-    "eslint-plugin-prefer-arrow": "~1.2.3",
     "husky": "^7.0.4"
   },
   "peerDependencies": {
-    "stylelint": ">=14.5.0"
+    "stylelint": "^14.5.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
