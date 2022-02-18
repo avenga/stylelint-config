@@ -3,8 +3,9 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - master
       - 'dependabot/**'
+      - 'new-github-workflow'
   pull_request:
     branches:
       - '**'
